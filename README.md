@@ -17,7 +17,7 @@ and jpeg without libraries. )
 
 # What Are The Differences?
 - Array's and Objects can end with a comma. IE. [ 9 , 5 , 3 ,] { 9, 5, 3, }
-- Objects can be indexed with or without key. ( Preferably index as that's always faster )
+- Objects can be indexed with or without key. ( Preferably indexed without as that's always faster )
 - Array's are EXPLICITELY required to be all the same type of value because they will be stored as a literal array in memory.
   ( Multidimensional arrays will not due to complexity of implementation, a single array will be continous though, and techinically they are oriented properly but the functionality isn't really that crucial to me )
 - MultiDimensional array's are EXPLICITELY required to have each array inside of it be the same length, again because that is how it will be layed out in memory.
