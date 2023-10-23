@@ -10,10 +10,10 @@ Json, is insanely simple. Insanely human readable, ***mostly*** well defined bes
 is the explicit purpose for JZON. The whole point is to add a nice simple and clean update for json to fix the tiny things,
 while still being able to parse original json files and specifiying the interface coders interact with after parsing.
 
-# Why Not A Library?
+# Why Not Use A JSON Library?
 My stance is doing it yourself is always better as an educational experience. That's how I like to do it and that's
 the way I'm going to do it until I've reached a point where it would be too much work. ( Something like supporting png
-and jpeg without libraries. )
+and jpeg without using common libraries. )
 
 # What Are The Differences?
 - Array's and Objects can end with a comma. IE. [ 9 , 5 , 3 ,] { 9, 5, 3, }
